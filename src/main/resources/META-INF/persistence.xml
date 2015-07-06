@@ -6,8 +6,8 @@
 
 	<persistence-unit name="persistenceUnit" transaction-type="RESOURCE_LOCAL">
 
-        <class>org.slevin.common.Item</class>
-        <class>org.slevin.common.Order</class>
+        <class>org.zba.common.Item</class>
+        <class>org.zba.common.Order</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
 
 	</persistence-unit>
